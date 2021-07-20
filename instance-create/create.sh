@@ -31,8 +31,8 @@ Instance_Create() {
 
 if [ "$1" == "all" ]; then
   for instance in frontend redis users login todo ; do
-    Instance_Create $instance-dev
+    Instance_Create $instance
   done
 else
-  Instance_Create $1-dev
+  Instance_Create $1
 fi
