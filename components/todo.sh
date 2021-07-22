@@ -28,7 +28,6 @@ Stat $?
 cd todo/
 
 Head "Installing NPM"
-#npm install -y &>>$LOG
 npm install --save-dev  --unsafe-perm node-sass &>>$LOG
 Stat $?
 
