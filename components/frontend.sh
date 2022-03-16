@@ -36,8 +36,8 @@ npm run build  &>>$LOG
 Stat $?
 
 Head "Replacing domain names"
-sed -i '32 s/127.0.0.1/login.ksrihari.online/g' /var/www/html/app/frontend/config/index.js
-sed -i '36 s/127.0.0.1/todo.ksrihari.online/g' /var/www/html/app/frontend/config/index.js
+sed -i '32 s/127.0.0.1/http://172.31.84.164:8080/g' /var/www/html/app/frontend/config/index.js
+sed -i '36 s/127.0.0.1/http://172.31.92.120:8080/g' /var/www/html/app/frontend/config/index.js
 Stat $?
 
 Head "Starting NPM"
