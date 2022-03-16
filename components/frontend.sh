@@ -30,7 +30,6 @@ Stat $?
 
 Head "run and build npm"
 npm install -g npm@latest &>>$LOG
-npm install shelljs &>>$LOG
 npm install --save-dev  --unsafe-perm node-sass &>>$LOG
 npm run build  &>>$LOG
 Stat $?
